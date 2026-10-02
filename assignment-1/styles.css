@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eef5f9;
+    color: #333333;
+}
+header {
+    background-color: #d9edf7;
+    padding: 25px;
+    border-bottom: 2px solid #5b9bb5;
+}
+.header-content {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.name {
+    flex: 1;
+}
+.name h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #24566b;
+}
+.name p {
+    margin-top: 8px;
+    color: #527786;
+}
+.contact-info {
+    margin-right: 25px;
+}
+.contact-info p {
+    margin: 5px;
+}
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #5b9bb5;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+}
+nav {
+    background-color: #24566b;
+    padding: 12px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    color: #bfe3f0;
+}
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #c7dfe8;
+    border-radius: 5px;
+}
+section {
+    margin-bottom: 20px;
+}
+section h2 {
+    margin-top: 0;
+    color: #24566b;
+    border-bottom: 2px solid #5b9bb5;
+    padding-bottom: 8px;
+}
+.education-content {
+    padding: 5px;
+}
+.education-content h3 {
+    color: #326f87;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.education-content p {
+    margin: 10px 0;
+}
+li {
+    margin-bottom: 10px;
+}
+article {
+    margin-bottom: 20px;
+}
+article h3 {
+    color: #326f87;
+    margin-bottom: 8px;
+}
+a {
+    color: #26718f;
+}
+a:hover {
+    color: #174b60;
+}
+footer {
+    background-color: #24566b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,22 @@
+
+.card {
+    background-color: #e8f4f8;
+    border: 1px solid #b5d5e2;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card h5 {
+    color: #24566b;
+    margin-top: 5px;
+}
+
+.card p {
+    color: #287c9e;
+}
